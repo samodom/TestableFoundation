@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0AD4E74C1A4A37EF0091747D /* TestableFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD4E74B1A4A37EF0091747D /* TestableFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AD4E7521A4A37EF0091747D /* TestableFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD4E7461A4A37EF0091747D /* TestableFoundation.framework */; };
-		0AD4E7591A4A37EF0091747D /* TestableFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4E7581A4A37EF0091747D /* TestableFoundationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +27,6 @@
 		0AD4E74B1A4A37EF0091747D /* TestableFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestableFoundation.h; sourceTree = "<group>"; };
 		0AD4E7511A4A37EF0091747D /* TestableFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestableFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD4E7571A4A37EF0091747D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AD4E7581A4A37EF0091747D /* TestableFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableFoundationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 		0AD4E7481A4A37EF0091747D /* TestableFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				0AD4E74B1A4A37EF0091747D /* TestableFoundation.h */,
 				0AD4E7491A4A37EF0091747D /* Supporting Files */,
 			);
 			path = TestableFoundation;
@@ -88,7 +85,6 @@
 		0AD4E7551A4A37EF0091747D /* TestableFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
-				0AD4E7581A4A37EF0091747D /* TestableFoundationTests.swift */,
 				0AD4E7561A4A37EF0091747D /* Supporting Files */,
 			);
 			path = TestableFoundationTests;
@@ -216,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD4E7591A4A37EF0091747D /* TestableFoundationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
